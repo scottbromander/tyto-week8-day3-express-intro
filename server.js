@@ -22,7 +22,7 @@ app.get('/', (req,res) => {
 // http://localhost:5000/person
 app.get('/person', (req,res) => {
     res.send(person);
-})
+});
 
 app.get('/kittycat', (req,res) => {
     res.send(array);
@@ -30,4 +30,4 @@ app.get('/kittycat', (req,res) => {
 
 app.get('/something', (req,res) => {
     res.send({value :array[0]})
-})
+});
